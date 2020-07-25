@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign in Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+       <div class="signup">
+         <img src="epam logo.png" class="epam-img"><span><p>Sign in<span class="close">&times;</span></p></span></img>
+         <!--<p>Sign in<span class="close">&times;</span></p>-->
+         <form class="forms" name="myForm" action="abc.jsp" onsubmit="validateForm();">
+           <input type="email" name="email" placeholder="mail@example.com" autocomplete="off"/><span>  <i class="fa fa-envelope iconss" aria-hidden="true"></i></span><br />
+           <input type="password" name="password" placeholder="password"/><span>  <i class="fa fa-unlock-alt iconss" aria-hidden="true"></i></span><br />
+           <input type="submit" name="button" value="SIGN IN">
+         </form>
+       </div>
+       <div class="others">
+       <p class="forgot">Forgot your password!</p><span><p class="register">Register!</p></span>
+      </div>
+      <div class="partition">
+        <p>---------------------------------------- OR -----------------------------------------</p>
+        </div>
+      <div class="facebook-icons">
+        <a href="#" class="fa fa-facebook"></a>
+        </div>
+        <div class="google-icons">
+          <a href="#" class="fa fa-google"></a>
+        </div>
+        <div class="epam">
+          <a href="#" class="epam-login">&lt;EPAM LOGIN&gt;</a>
+        </div>
+       <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
